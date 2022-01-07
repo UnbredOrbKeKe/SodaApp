@@ -12,6 +12,102 @@
             <Entry Text="{Binding Text, Mode=TwoWay}" FontSize="Medium" />
             <Label Text="Description" FontSize="Medium" />
             <Editor Text="{Binding Description, Mode=TwoWay}" AutoSize="TextChanges" FontSize="Medium" Margin="0" />
+            <Label Text="Maak je Mix: " FontSize="Medium" />
+            <StackLayout Orientation="Horizontal" >
+                <Slider x:Name="Drank1"
+                        Minimum="0"
+                        Maximum="20" 
+                        ValueChanged="slider1"
+                        ThumbColor="Aqua"
+                        WidthRequest="200"/>
+                <Label Text="0 Shots" 
+                       x:Name="shotCounter1"/>
+                <Label Text="Drank1"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" >
+                <Slider x:Name="Drank2"
+                        Minimum="0"
+                        Maximum="20" 
+                        ValueChanged="slider2"
+                        ThumbColor="Aqua"
+                        WidthRequest="200"/>
+                <Label Text="0 Shots" 
+                       x:Name="shotCounter2"/>
+                <Label Text="Drank2"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" >
+                <Slider x:Name="Drank3"
+                        Minimum="0"
+                        Maximum="20" 
+                        ValueChanged="slider3"
+                        ThumbColor="Aqua"
+                        WidthRequest="200"/>
+                <Label Text="0 Shots" 
+                       x:Name="shotCounter3"/>
+                <Label Text="Drank3"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" >
+                <Slider x:Name="Drank4"
+                        Minimum="0"
+                        Maximum="20" 
+                        ValueChanged="slider4"
+                        ThumbColor="Aqua"
+                        WidthRequest="200"/>
+                <Label Text="0 Shots" 
+                       x:Name="shotCounter4"/>
+                <Label Text="Drank4"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" >
+                <Slider x:Name="Drank5"
+                        Minimum="0"
+                        Maximum="20" 
+                        ValueChanged="slider5"
+                        ThumbColor="Aqua"
+                        WidthRequest="200"/>
+                <Label Text="0 Shots" 
+                       x:Name="shotCounter5"/>
+                <Label Text="Drank5"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" >
+                <Slider x:Name="Drank6"
+                        Minimum="0"
+                        Maximum="20" 
+                        ValueChanged="slider6"
+                        ThumbColor="Aqua"
+                        WidthRequest="200"/>
+                <Label Text="0 Shots" 
+                       x:Name="shotCounter6"/>
+                <Label Text="Drank6"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" >
+                <Slider x:Name="Drank7"
+                        Minimum="0"
+                        Maximum="20" 
+                        ValueChanged="slider7"
+                        ThumbColor="Aqua"
+                        WidthRequest="200"/>
+                <Label Text="0 Shots" 
+                       x:Name="shotCounter7"/>
+                <Label Text="Drank7"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" >
+                <Slider x:Name="Drank8"
+                        Minimum="0"
+                        Maximum="20" 
+                        ValueChanged="slider8"
+                        ThumbColor="Aqua"
+                        WidthRequest="200"/>
+                <Label Text="0 Shots" 
+                       x:Name="shotCounter8"/>
+                <Label Text="Drank8"/>
+            </StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Button Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
                 <Button Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>

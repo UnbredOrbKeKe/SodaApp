@@ -12,6 +12,7 @@ namespace SodaDispenser.ViewModels
 		private string text;
 		private string description;
 
+
 		public NewItemViewModel()
 		{
 			SaveCommand = new Command(OnSave, ValidateSave);
