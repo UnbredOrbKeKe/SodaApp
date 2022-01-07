@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SodaDispenser.Android", "SodaDispenser\SodaDispenser.Android\SodaDispenser.Android.csproj", "{08923E40-019E-44AD-A98D-529823C75344}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SodaDispenser", "SodaDispenser\SodaDispenser\SodaDispenser.csproj", "{642C726F-3DA8-4EFA-A2B1-BBA2F19FFF07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SodaDispenser", "SodaDispenser\SodaDispenser\SodaDispenser.csproj", "{642C726F-3DA8-4EFA-A2B1-BBA2F19FFF07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
