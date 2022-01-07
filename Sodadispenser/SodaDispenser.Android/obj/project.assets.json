@@ -2142,24 +2142,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\melle\\.nuget\\packages\\": {},
+    "C:\\Users\\Startklaar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Startklaar\\Documents\\GitHub\\hoi\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
       "projectName": "SodaDispenser.Android",
-      "projectPath": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
-      "packagesPath": "C:\\Users\\melle\\.nuget\\packages\\",
-      "outputPath": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.Android\\obj\\",
+      "projectPath": "C:\\Users\\Startklaar\\Documents\\GitHub\\hoi\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+      "packagesPath": "C:\\Users\\Startklaar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Startklaar\\Documents\\GitHub\\hoi\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\melle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Startklaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
-              "projectPath": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj"
+            "C:\\Users\\Startklaar\\Documents\\GitHub\\hoi\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
+              "projectPath": "C:\\Users\\Startklaar\\Documents\\GitHub\\hoi\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj"
             }
           }
         }
