@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "grQM1KJQYM8zFpClxOzDzBK0R/22YJ1A7EKgKVaYuDIbENKTlQxPrgDwKkTSAZo3hkdjIHff22ipAUd5eOHcSA==",
+  "dgSpecHash": "qJo7v5L5XaTRte9IIVaH9patbOcXn4Z9C6N0e4oLjf3oRsmQQzS7VOgiQlrs31YWlYFFWsVb8bB/+mc2As/QPQ==",
   "success": true,
-  "projectFilePath": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+  "projectFilePath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\melle\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

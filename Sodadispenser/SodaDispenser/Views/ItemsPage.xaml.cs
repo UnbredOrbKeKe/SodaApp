@@ -28,5 +28,10 @@ namespace SodaDispenser.Views
 			base.OnAppearing();
 			_viewModel.OnAppearing();
 		}
+
+		private void OnDelete(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

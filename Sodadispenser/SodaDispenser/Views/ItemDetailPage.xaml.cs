@@ -11,5 +11,9 @@ namespace SodaDispenser.Views
 			InitializeComponent();
 			BindingContext = new ItemDetailViewModel();
 		}
+
+		private void DeleteButton(object sender, System.EventArgs e)
+		{
+		}
 	}
 }

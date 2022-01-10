@@ -3,12 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SodaDispenser.Views.ItemDetailPage"
              Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Delete" Clicked="DeleteButton"/>
+    </ContentPage.ToolbarItems>
 
-    <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Text}" FontSize="Small"/>
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Description}" FontSize="Small"/>
+    <StackLayout Spacing="2" Padding="15">
+        <Label Text="Text:" FontSize="Medium" TextColor="Black" />
+        <Label Text="{Binding Text}" FontSize="Small" TextColor="Black"/>
+        <Label Text="Description:" FontSize="Medium" TextColor="Black"/>
+        <Label Text="{Binding Description}" FontSize="Small" TextColor="Gray"/>
+        <Button Text="LETS MIX!" ></Button>
     </StackLayout>
     
 </ContentPage>

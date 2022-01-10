@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+      "projectUniqueName": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
       "projectName": "SodaDispenser.Android",
-      "projectPath": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+      "projectPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
       "packagesPath": "C:\\Users\\melle\\.nuget\\packages\\",
-      "outputPath": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.Android\\obj\\",
+      "outputPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
-              "projectPath": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj"
+            "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
+              "projectPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj"
             }
           }
         }

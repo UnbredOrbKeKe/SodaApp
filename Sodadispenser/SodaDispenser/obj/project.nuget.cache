@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fMrgqo7ao3XxB4ZD1al0MG5b1z3OzuEfBBR449XBO6ox1VH5E2TjkFNtprY6SewJc64/rgHBlDBDXCRwzjs/Ow==",
+  "dgSpecHash": "umNBfUcFhv+KnAwtIJrwZnjd+EUz/G86p7zppN1X71JBZYnDXg18XYR4xNIhN//VW2YzIfW8VrqrMV+vU0+WoQ==",
   "success": true,
-  "projectFilePath": "G:\\arcade project\\SodaApp\\Sodadispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
+  "projectFilePath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\melle\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\melle\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
