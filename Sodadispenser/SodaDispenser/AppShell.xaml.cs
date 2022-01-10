@@ -13,6 +13,7 @@ namespace SodaDispenser
 			InitializeComponent();
 			Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
 			Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+			Routing.RegisterRoute(nameof(Settings1), typeof(Settings1));
 		}
 
 	}
