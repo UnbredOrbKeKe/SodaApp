@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using SodaDispenser.Services;
 
 namespace SodaDispenser.Views
 {
@@ -31,7 +32,7 @@ namespace SodaDispenser.Views
 
 		private void OnDelete(object sender, EventArgs e)
 		{
-
+			MockDataStore.items
 		}
 	}
 }

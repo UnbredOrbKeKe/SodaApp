@@ -8,7 +8,7 @@ namespace SodaDispenser.Services
 {
 	public class MockDataStore : IDataStore<Item>
 	{
-		readonly List<Item> items;
+		public static List<Item> items;
 
 		public MockDataStore()
 		{
