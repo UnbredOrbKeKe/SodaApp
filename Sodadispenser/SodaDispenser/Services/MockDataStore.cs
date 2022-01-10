@@ -14,7 +14,7 @@ namespace SodaDispenser.Services
 		{
 			items = new List<Item>()
 			{
-				new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description."},
+				new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description.", MixCode="6-9-4-2-0"},
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },

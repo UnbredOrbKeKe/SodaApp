@@ -12,6 +12,7 @@ namespace SodaDispenser.ViewModels
 	{
 		private string text;
 		private string description;
+		private string mixCode;
 
 		public NewItemViewModel()
 		{
@@ -39,6 +40,12 @@ namespace SodaDispenser.ViewModels
 			set => SetProperty(ref description, value);
 		}
 
+		public string MixCode
+        {
+			get => mixCode;
+			set => SetProperty(ref mixCode, value);
+        }
+
 				public Command SaveCommand { get; }
 		public Command CancelCommand { get; }
 
@@ -55,7 +62,7 @@ namespace SodaDispenser.ViewModels
 				Id = Guid.NewGuid().ToString(),
 				Text = Text,
 				Description = Description,
-				MixCode = NewItemPage.MixCode
+				MixCode = MixCode
 
 			};
 

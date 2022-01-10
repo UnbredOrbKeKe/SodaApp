@@ -14,92 +14,122 @@
             <Editor Text="{Binding Description, Mode=TwoWay}" AutoSize="TextChanges" FontSize="Medium" Margin="0" />
             <Label Text="Maak je Mix: " FontSize="Medium" />
             <StackLayout Orientation="Horizontal" >
-                <Slider x:Name="Drank1"
+                <Slider x:Name="pomp1"
                         Minimum="0"
                         Maximum="20" 
                         ThumbColor="Aqua"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        ValueChanged="Slider"/>
                 <Label Text="{Binding Value, StringFormat='{0:F0}'}"
-                       BindingContext="{x:Reference Drank1}"/>
-                <Label Text="shots Drank1"/>
+                       BindingContext="{x:Reference pomp1}"
+                       x:Name="Pump1"/>
+                <Label x:Name="Drink1"
+                       Text="Drank1"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" >
-                <Slider x:Name="Drank2"
+                <Slider x:Name="pomp2"
                         Minimum="0"
                         Maximum="20" 
                         ThumbColor="Aqua"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        ValueChanged="Slider"/>
                 <Label Text="{Binding Value, StringFormat='{0:F0}'}"
-                       BindingContext="{x:Reference Drank2}"/>
-                <Label Text="shots Drank2"/>
+                       BindingContext="{x:Reference pomp2}"
+                       x:Name="Pump2"/>
+                <Label x:Name="Drink2"
+                       Text="Drank2"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" >
-                <Slider x:Name="Drank3"
+                <Slider x:Name="pomp3"
                         Minimum="0"
                         Maximum="20" 
                         ThumbColor="Aqua"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        ValueChanged="Slider"/>
                 <Label Text="{Binding Value, StringFormat='{0:F0}'}"
-                       BindingContext="{x:Reference Drank3}"/>
-                <Label Text="shots Drank3"/>
+                       BindingContext="{x:Reference pomp3}"
+                       x:Name="Pump3"/>
+                <Label x:Name="Drink3"
+                       Text="Drank3"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" >
-                <Slider x:Name="Drank4"
+                <Slider x:Name="pomp4"
                         Minimum="0"
                         Maximum="20" 
                         ThumbColor="Aqua"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        ValueChanged="Slider"/>
                 <Label Text="{Binding Value, StringFormat='{0:F0}'}"
-                       BindingContext="{x:Reference Drank4}"/>
-                <Label Text="shots Drank4"/>
+                       BindingContext="{x:Reference pomp4}"
+                       x:Name="Pump4"/>
+                <Label x:Name="Drink4"
+                       Text="Drank4"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" >
-                <Slider x:Name="Drank5"
+                <Slider x:Name="pomp5"
                         Minimum="0"
                         Maximum="20" 
                         ThumbColor="Aqua"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        ValueChanged="Slider"/>
                 <Label Text="{Binding Value, StringFormat='{0:F0}'}"
-                       BindingContext="{x:Reference Drank5}"/>
-                <Label Text="shots Drank5"/>
+                       BindingContext="{x:Reference pomp5}"
+                       x:Name="Pump5"/>
+                <Label x:Name="Drink5"
+                       Text="Drank5"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" >
-                <Slider x:Name="Drank6"
+                <Slider x:Name="pomp6"
                         Minimum="0"
                         Maximum="20" 
                         ThumbColor="Aqua"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        ValueChanged="Slider"/>
                 <Label Text="{Binding Value, StringFormat='{0:F0}'}"
-                       BindingContext="{x:Reference Drank6}"/>
-                <Label Text="shots Drank6"/>
+                       BindingContext="{x:Reference pomp6}"
+                       x:Name="Pump6"/>
+                <Label x:Name="Drink6"
+                       Text="Drank6"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" >
-                <Slider x:Name="Drank7"
+                <Slider x:Name="pomp7"
                         Minimum="0"
                         Maximum="20" 
                         ThumbColor="Aqua"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        ValueChanged="Slider"/>
                 <Label Text="{Binding Value, StringFormat='{0:F0}'}"
-                       BindingContext="{x:Reference Drank7}"/>
-                <Label Text="shots Drank7"/>
+                       BindingContext="{x:Reference pomp7}"
+                       x:Name="Pump7"/>
+                <Label x:Name="Drink7"
+                       Text="Drank7"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" >
-                <Slider x:Name="Drank8"
+                <Slider x:Name="pomp8"
                         Minimum="0"
                         Maximum="20"
                         ThumbColor="Aqua"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        ValueChanged="Slider"/>
                 <Label Text="{Binding Value, StringFormat='{0:F0}'}"
-                       BindingContext="{x:Reference Drank8}"/>
-                <Label Text="shots Drank8"/>
+                       BindingContext="{x:Reference pomp8}"
+                       x:Name="Pump8"/>
+                <Label x:Name="Drink8"
+                       Text="Drank8"/>
             </StackLayout>
+
+            <Label Text="{Binding MixCode, Mode=TwoWay}"
+                   x:Name="mixcode"
+                   IsVisible="false"/>
+            <Label Text="Selecteer voor maximaal 20 shots aan drinken anders stroomt je glas over :)"/>
+            <Label Text="Sidenote: 1 shot is 10ml dus wij gaan uit van glazen van 200ml"/>
             <StackLayout Orientation="Horizontal">
                 <Button Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
                 <Button Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>

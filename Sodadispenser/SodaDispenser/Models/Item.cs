@@ -1,4 +1,5 @@
 ﻿using System;
+using Xamarin.Essentials;
 
 namespace SodaDispenser.Models
 {
@@ -8,6 +9,6 @@ namespace SodaDispenser.Models
 		public string Text { get; set; }
 		public string Description { get; set; }
 		public string MixCode { get; set; }
-		
-	}
+
+    }
 }
