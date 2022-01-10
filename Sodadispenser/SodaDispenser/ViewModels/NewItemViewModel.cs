@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
+using SodaDispenser.Views;
 
 namespace SodaDispenser.ViewModels
 {
@@ -11,7 +12,6 @@ namespace SodaDispenser.ViewModels
 	{
 		private string text;
 		private string description;
-
 
 		public NewItemViewModel()
 		{
@@ -39,7 +39,7 @@ namespace SodaDispenser.ViewModels
 			set => SetProperty(ref description, value);
 		}
 
-		public Command SaveCommand { get; }
+				public Command SaveCommand { get; }
 		public Command CancelCommand { get; }
 
 		private async void OnCancel()
@@ -54,7 +54,9 @@ namespace SodaDispenser.ViewModels
 			{
 				Id = Guid.NewGuid().ToString(),
 				Text = Text,
-				Description = Description
+				Description = Description,
+				MixCode = NewItemPage.MixCode
+
 			};
 
 			await DataStore.AddItemAsync(newItem);

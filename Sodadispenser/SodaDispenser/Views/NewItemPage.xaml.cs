@@ -5,73 +5,34 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace SodaDispenser.Views
 {
 	public partial class NewItemPage : ContentPage
 	{
+		public static string MixCode;
 		public Item Item { get; set; }
 
 		public NewItemPage()
 		{
+			Drank1.Text = Preferences.Get("Drank1", string.Empty);
 			InitializeComponent();
+			
+			MixCode = Convert.ToString(Drank1.Value) + ";" +
+					  Convert.ToString(Drank2.Value) + ";" +
+					  Convert.ToString(Drank3.Value) + ";" +
+					  Convert.ToString(Drank4.Value) + ";" +
+					  Convert.ToString(Drank5.Value) + ";" +
+					  Convert.ToString(Drank6.Value) + ";" +
+					  Convert.ToString(Drank7.Value) + ";" +
+					  Convert.ToString(Drank8.Value);
+
 			BindingContext = new NewItemViewModel();
 		}
 
-        private void slider1(object sender, ValueChangedEventArgs e)
-        {
-			int val = Convert.ToInt32(e.NewValue);
-			string msg = string.Format("{0} shots", val);
-			this.shotCounter1.Text = msg;
-        }
+		
 
-		private void slider2(object sender, ValueChangedEventArgs e)
-		{
-			int val = Convert.ToInt32(e.NewValue);
-			string msg = string.Format("{0} shots", val);
-			this.shotCounter2.Text = msg;
-		}
 
-		private void slider3(object sender, ValueChangedEventArgs e)
-		{
-			int val = Convert.ToInt32(e.NewValue);
-			string msg = string.Format("{0} shots", val);
-			this.shotCounter3.Text = msg;
-		}
-
-		private void slider4(object sender, ValueChangedEventArgs e)
-		{
-			int val = Convert.ToInt32(e.NewValue);
-			string msg = string.Format("{0} shots", val);
-			this.shotCounter4.Text = msg;
-		}
-
-		private void slider5(object sender, ValueChangedEventArgs e)
-		{
-			int val = Convert.ToInt32(e.NewValue);
-			string msg = string.Format("{0} shots", val);
-			this.shotCounter5.Text = msg;
-		}
-
-		private void slider6(object sender, ValueChangedEventArgs e)
-		{
-			int val = Convert.ToInt32(e.NewValue);
-			string msg = string.Format("{0} shots", val);
-			this.shotCounter6.Text = msg;
-		}
-
-		private void slider7(object sender, ValueChangedEventArgs e)
-		{
-			int val = Convert.ToInt32(e.NewValue);
-			string msg = string.Format("{0} shots", val);
-			this.shotCounter7.Text = msg;
-		}
-
-		private void slider8(object sender, ValueChangedEventArgs e)
-		{
-			int val = Convert.ToInt32(e.NewValue);
-			string msg = string.Format("{0} shots", val);
-			this.shotCounter8.Text = msg;
-		}
 	}
 }

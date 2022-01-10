@@ -9,6 +9,8 @@
         <Label Text="{Binding Text}" FontSize="Small" TextColor="green"/>
         <Label Text="Description:" FontSize="Medium" TextColor="green"/>
         <Label Text="{Binding Description}" FontSize="Small" TextColor="green"/>
+        <Label Text="mixCode van uw drank:" FontSize="Medium" TextColor="Green"/>
+        <Label Text="{Binding MixCode}" FontSize="Small" TextColor="Green"/>
     </StackLayout>
     
 </ContentPage>
