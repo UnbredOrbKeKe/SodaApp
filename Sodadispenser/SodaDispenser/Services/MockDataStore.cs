@@ -3,16 +3,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
 
 namespace SodaDispenser.Services
 {
 	public class MockDataStore : IDataStore<Item>
 	{
-		public static List<Item> items;
+		//public static List<Item> items;
+		public static ObservableCollection<Item> items;
+
 
 		public MockDataStore()
 		{
-			items = new List<Item>()
+			items = new ObservableCollection<Item>()
 			{
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Berenburg Cola", Description="This is an item description.", MixCode="14-0-0-6-0-0-0-0" },
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Raketje", Description="This is an item description.", MixCode="1-2-3-4-5-6-7-8" },
