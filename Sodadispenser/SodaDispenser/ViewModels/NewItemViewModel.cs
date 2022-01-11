@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 using SodaDispenser.Views;
 
 namespace SodaDispenser.ViewModels
@@ -67,6 +68,7 @@ namespace SodaDispenser.ViewModels
 			};
 
 			await DataStore.AddItemAsync(newItem);
+			
 
 			// This will pop the current page off the navigation stack
 			await Shell.Current.GoToAsync("..");
