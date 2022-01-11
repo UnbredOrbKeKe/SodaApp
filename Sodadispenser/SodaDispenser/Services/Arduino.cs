@@ -11,7 +11,7 @@ namespace SodaDispenser.Services
         public static void Cummunicate(string led)
         {
             //IPAddress ipAddress = IPAddress.Parse("192.168.1.65"); //laptop connection
-            IPAddress ipAddress = IPAddress.Parse("192.168.178.17"); //desktop
+            IPAddress ipAddress = IPAddress.Parse("192.168.178.10"); //desktop
             IPEndPoint endPoint = new IPEndPoint(ipAddress, 42069); //instellen op welke poort en ip wordt gecommunicate
             Socket s = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
             s.Connect(endPoint);

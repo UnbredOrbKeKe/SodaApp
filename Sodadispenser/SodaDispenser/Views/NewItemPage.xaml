@@ -131,8 +131,9 @@
             <Label Text="Selecteer voor maximaal 20 shots aan drinken anders stroomt je glas over :)"/>
             <Label Text="Sidenote: 1 shot is 10ml dus wij gaan uit van glazen van 200ml"/>
             <StackLayout Orientation="Horizontal">
-                <Button Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
-                <Button Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>
+                <Button Text="Cancel" Command="{Binding CancelCommand}" WidthRequest="120"></Button>
+                <Button Text="verify mix" Clicked="verify" WidthRequest="120"/>
+                <Button Text="Save" Command="{Binding SaveCommand}" WidthRequest="120" IsVisible="false" x:Name="save"></Button>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

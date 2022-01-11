@@ -41,6 +41,22 @@ namespace SodaDispenser.Views
 							  Pump8.Text);
 
 			mixcode.Text = Preferences.Get("MixCode", string.Empty);
+			save.IsVisible = false;
 		}
+
+        private void verify(object sender, EventArgs e)
+        {
+			int shotcount = Convert.ToInt32(pomp1.Value) + Convert.ToInt32(pomp2.Value) + Convert.ToInt32(pomp3.Value) + Convert.ToInt32(pomp4.Value) +
+							Convert.ToInt32(pomp5.Value) + Convert.ToInt32(pomp6.Value) + Convert.ToInt32(pomp7.Value) + Convert.ToInt32(pomp8.Value);
+
+			if (shotcount > 20)
+            {
+				DisplayAlert("Alert", "Je glas mag niet overstromen daab", "ok");
+			}
+            else
+            {
+				save.IsVisible = true;
+            }
+        }
     }
 }

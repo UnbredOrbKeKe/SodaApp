@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "umNBfUcFhv+KnAwtIJrwZnjd+EUz/G86p7zppN1X71JBZYnDXg18XYR4xNIhN//VW2YzIfW8VrqrMV+vU0+WoQ==",
+  "dgSpecHash": "OVhq/sSh8ArkOUosxYQ80OYnqQA8TpgV7JVcwQX1s9VuISnumpfpRZyqyUyrZ55vxB8QEBoc63mVkkbyO/ZAfQ==",
   "success": true,
-  "projectFilePath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
+  "projectFilePath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\melle\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\melle\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\melle\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

@@ -2142,24 +2142,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\melle\\.nuget\\packages\\": {},
+    "C:\\Users\\Dennis\\.nuget\\packages\\": {},
+    "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
       "projectName": "SodaDispenser.Android",
-      "projectPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
-      "packagesPath": "C:\\Users\\melle\\.nuget\\packages\\",
-      "outputPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\obj\\",
+      "projectPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+      "packagesPath": "C:\\Users\\Dennis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\melle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dennis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2173,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
-              "projectPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj"
+            "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
+              "projectPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj"
             }
           }
         }
