@@ -1156,3 +1156,4 @@ G:\arcade project\SodaApp\SodaDispenser\SodaDispenser.Android\obj\Debug\110\stam
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser.Android\obj\Debug\110\res\drawable\home.png
+G:\arcade project\SodaApp\SodaDispenser\SodaDispenser.Android\obj\Debug\110\SodaDispenser.Android.csproj.CopyComplete

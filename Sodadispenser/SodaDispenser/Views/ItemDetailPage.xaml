@@ -12,6 +12,8 @@
         <Label x:Name="naam" Text="{Binding Text}" FontSize="Small" TextColor="Black"/>
         <Label Text="Description:" FontSize="Medium" TextColor="Black"/>
         <Label Text="{Binding Description}" FontSize="Small" TextColor="Gray"/>
+        <Label Text="mixCode van uw drank:" FontSize="Medium" TextColor="Green"/>
+        <Label Text="{Binding MixCode}" FontSize="Small" TextColor="Green"/>
         <Button Text="LETS MIX!" ></Button>
     </StackLayout>
     

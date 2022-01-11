@@ -36,3 +36,4 @@ G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\S
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\ref\SodaDispenser.dll
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\SodaDispenser.pdb
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\SodaDispenser.csproj.AssemblyReference.cache
+G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\Views\Settings1.xaml.g.cs
