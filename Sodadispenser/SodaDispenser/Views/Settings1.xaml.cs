@@ -66,27 +66,41 @@ namespace SodaDispenser.Views
             Drank8.Text = string.Empty;
         }
 
-        private void ClearButton_Clicked(object sender, EventArgs e)
+        private async void ClearButton_Clicked(object sender, EventArgs e)
         {
-            //verwijdert preferences van de dranken als je op de clear dranken knop drukt.
-            Preferences.Remove("Drank1");
-            Preferences.Remove("Drank2");
-            Preferences.Remove("Drank3");
-            Preferences.Remove("Drank4");
-            Preferences.Remove("Drank5");
-            Preferences.Remove("Drank6");
-            Preferences.Remove("Drank7");
-            Preferences.Remove("Drank8");
+           var Verwijder = await DisplayAlert("Alert", "Weet u zeker dat u elk drankje wilt verwijdern hier?", "JA", "NEE");
 
-            //Zorgt ervoor dat de drank in de label ook wordt verwijdert en dat er weer "pomp 1-8 =" komt te staan.
-            Pomp1.Text = " Pomp 1 = " + Preferences.Get("Drank1", string.Empty);
-            Pomp2.Text = " Pomp 2 = " + Preferences.Get("Drank2", string.Empty);
-            Pomp3.Text = " Pomp 3 = " + Preferences.Get("Drank3", string.Empty);
-            Pomp4.Text = " Pomp 4 = " + Preferences.Get("Drank4", string.Empty);
-            Pomp5.Text = " Pomp 5 = " + Preferences.Get("Drank5", string.Empty);
-            Pomp6.Text = " Pomp 6 = " + Preferences.Get("Drank6", string.Empty);
-            Pomp7.Text = " Pomp 7 = " + Preferences.Get("Drank7", string.Empty);
-            Pomp8.Text = " Pomp 8 = " + Preferences.Get("Drank8", string.Empty);
+            //Als je op ja drukt gaat hij dit uitvoeren
+            if (Verwijder == true)
+            {
+                //verwijdert preferences van de dranken als je op de ja knop drukt.
+                Preferences.Remove("Drank1");
+                Preferences.Remove("Drank2");
+                Preferences.Remove("Drank3");
+                Preferences.Remove("Drank4");
+                Preferences.Remove("Drank5");
+                Preferences.Remove("Drank6");
+                Preferences.Remove("Drank7");
+                Preferences.Remove("Drank8");
+
+                //Zorgt ervoor dat de drank in de label ook wordt verwijdert en dat er weer "pomp 1-8 =" komt te staan.
+                Pomp1.Text = " Pomp 1 = " + Preferences.Get("Drank1", string.Empty);
+                Pomp2.Text = " Pomp 2 = " + Preferences.Get("Drank2", string.Empty);
+                Pomp3.Text = " Pomp 3 = " + Preferences.Get("Drank3", string.Empty);
+                Pomp4.Text = " Pomp 4 = " + Preferences.Get("Drank4", string.Empty);
+                Pomp5.Text = " Pomp 5 = " + Preferences.Get("Drank5", string.Empty);
+                Pomp6.Text = " Pomp 6 = " + Preferences.Get("Drank6", string.Empty);
+                Pomp7.Text = " Pomp 7 = " + Preferences.Get("Drank7", string.Empty);
+                Pomp8.Text = " Pomp 8 = " + Preferences.Get("Drank8", string.Empty);
+
+                await DisplayAlert("Alert", "Uw dranken zijn verwijderd", "OK");
+            }
+
+            //Als je niet op ja drukt (dus op nee) dan verwijdert hij niks
+            else
+            {
+                await DisplayAlert("Alert", "Er is niks verwijdert", "OK");
+            }
         }
     }
 }
