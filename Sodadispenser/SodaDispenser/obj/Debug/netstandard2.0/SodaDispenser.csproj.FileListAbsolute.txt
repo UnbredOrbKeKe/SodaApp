@@ -21,7 +21,6 @@ G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\bin\Debug\netstandard2.0\S
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\bin\Debug\netstandard2.0\SodaDispenser.dll
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\bin\Debug\netstandard2.0\ref\SodaDispenser.dll
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\bin\Debug\netstandard2.0\SodaDispenser.pdb
-G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\SodaDispenser.csproj.AssemblyReference.cache
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\SodaDispenser.GeneratedMSBuildEditorConfig.editorconfig
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\App.xaml.g.cs
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
@@ -36,3 +35,4 @@ G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\X
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\SodaDispenser.dll
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\ref\SodaDispenser.dll
 G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\SodaDispenser.pdb
+G:\arcade project\SodaApp\SodaDispenser\SodaDispenser\obj\Debug\netstandard2.0\SodaDispenser.csproj.AssemblyReference.cache

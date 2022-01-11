@@ -9,7 +9,7 @@
 
     <StackLayout Spacing="2" Padding="15">
         <Label Text="Text:" FontSize="Medium" TextColor="Black" />
-        <Label Text="{Binding Text}" FontSize="Small" TextColor="Black"/>
+        <Label x:Name="naam" Text="{Binding Text}" FontSize="Small" TextColor="Black"/>
         <Label Text="Description:" FontSize="Medium" TextColor="Black"/>
         <Label Text="{Binding Description}" FontSize="Small" TextColor="Gray"/>
         <Button Text="LETS MIX!" ></Button>

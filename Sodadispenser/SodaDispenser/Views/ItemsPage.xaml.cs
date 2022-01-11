@@ -9,12 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using SodaDispenser.Services;
+
 
 namespace SodaDispenser.Views
 {
 	public partial class ItemsPage : ContentPage
 	{
+		public static Item _selectedItem;
 		ItemsViewModel _viewModel;
 
 		public ItemsPage()
@@ -30,9 +31,11 @@ namespace SodaDispenser.Views
 			_viewModel.OnAppearing();
 		}
 
-		private void OnDelete(object sender, EventArgs e)
+		protected void itemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
-			MockDataStore.items
+			_selectedItem = (Item)e.SelectedItem;
 		}
+
+
 	}
 }
