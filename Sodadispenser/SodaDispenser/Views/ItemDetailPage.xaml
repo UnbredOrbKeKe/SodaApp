@@ -4,7 +4,8 @@
              x:Class="SodaDispenser.Views.ItemDetailPage"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Delete" Clicked="DeleteButton"/>
+        <ToolbarItem Text="Delete" Clicked="DeleteButton" CommandParameter="{Binding Text}"/>
+        
     </ContentPage.ToolbarItems>
 
     <StackLayout Spacing="2" Padding="15">
@@ -15,6 +16,7 @@
         <Label Text="mixCode van uw drank:" FontSize="Medium" TextColor="Green"/>
         <Label Text="{Binding MixCode}" FontSize="Small" TextColor="Green"/>
         <Button Text="LETS MIX!" ></Button>
+        
     </StackLayout>
     
 </ContentPage>

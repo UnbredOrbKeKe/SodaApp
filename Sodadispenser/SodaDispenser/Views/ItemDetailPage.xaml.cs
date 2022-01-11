@@ -5,24 +5,38 @@ using SodaDispenser.Services;
 using SodaDispenser.Models;
 using System.Threading.Tasks;
 using System;
+using System.Linq;
 
 
 namespace SodaDispenser.Views
 {
 	public partial class ItemDetailPage : ContentPage
 	{
-		public static Item item = ItemsPage._selectedItem;
+		public Item _selectedItem;
+		
+
 		public ItemDetailPage()
 		{
 			InitializeComponent();
 			BindingContext = new ItemDetailViewModel();
 
 		}
-
-		private void DeleteButton(object sender, System.EventArgs e)
+		public Item SelectedItem
 		{
-			MockDataStore.items.Remove(item);
-			
+			get => _selectedItem;
+		}
+		private void DeleteButton(object sender, EventArgs e)
+		{
+
+			var item = (ToolbarItem)sender;
+			Item listitem = (from itm in MockDataStore.items
+							 where itm.Text == item.CommandParameter.ToString()
+							 select itm)
+							.FirstOrDefault<Item>();
+			MockDataStore.items.Remove(listitem);
+
+			Navigation.PopAsync();
+
 		}
 
 	}
