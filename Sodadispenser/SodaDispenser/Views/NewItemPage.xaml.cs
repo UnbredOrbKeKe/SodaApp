@@ -41,6 +41,7 @@ namespace SodaDispenser.Views
 							  Pump8.Text);
 
 			mixcode.Text = Preferences.Get("MixCode", string.Empty);
+
 		}
     }
 }
