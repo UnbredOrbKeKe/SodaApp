@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace SodaDispenser.Views
 {
@@ -10,6 +11,7 @@ namespace SodaDispenser.Views
 		public AboutPage()
 		{
 			InitializeComponent();
+
 		}
 	}
 }

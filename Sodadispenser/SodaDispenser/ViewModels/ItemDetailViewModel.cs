@@ -12,6 +12,7 @@ namespace SodaDispenser.ViewModels
 		private string itemId;
 		private string text;
 		private string description;
+		private string mixCode;
 		public string Id { get; set; }
 
 		public string Text
@@ -24,6 +25,12 @@ namespace SodaDispenser.ViewModels
 		{
 			get => description;
 			set => SetProperty(ref description, value);
+		}
+
+		public string MixCode
+		{
+			get => mixCode;
+			set => SetProperty(ref mixCode, value);
 		}
 
 		public string ItemId
@@ -47,6 +54,7 @@ namespace SodaDispenser.ViewModels
 				Id = item.Id;
 				Text = item.Text;
 				Description = item.Description;
+				MixCode = item.MixCode;
 			}
 			catch (Exception)
 			{
