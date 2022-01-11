@@ -4,7 +4,7 @@
              x:Class="SodaDispenser.Views.ItemDetailPage"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Delete" Clicked="DeleteButton"/>
+        <ToolbarItem Text="Delete"/>
     </ContentPage.ToolbarItems>
 
     <StackLayout Spacing="2" Padding="15">
