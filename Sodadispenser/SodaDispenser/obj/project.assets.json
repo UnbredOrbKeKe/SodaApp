@@ -584,26 +584,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dennis\\.nuget\\packages\\": {},
-    "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\melle\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
+      "projectUniqueName": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
       "projectName": "SodaDispenser",
-      "projectPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
-      "packagesPath": "C:\\Users\\Dennis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\obj\\",
+      "projectPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
+      "packagesPath": "C:\\Users\\melle\\.nuget\\packages\\",
+      "outputPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dennis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\melle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -663,7 +660,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
