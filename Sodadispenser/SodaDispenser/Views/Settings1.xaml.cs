@@ -93,7 +93,7 @@ namespace SodaDispenser.Views
         {
            var Verwijder = await DisplayAlert("Alert", "Weet u zeker dat u elk drankje wilt verwijdern hier?", "JA", "NEE");
 
-            //Als je op ja drukt gaat hij dit uitvoeren
+            //Als je op ja drukt gaat hij dit uitvoeren.
             if (Verwijder == true)
             {
                 //verwijdert preferences van de dranken als je op de ja knop drukt.
