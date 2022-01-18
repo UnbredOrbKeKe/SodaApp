@@ -43,6 +43,13 @@ namespace SodaDispenser.Views
             string counter = mixCode.Text;
             int[] shots = counter.Split('-').Select(Int32.Parse).ToArray();
 
+            for (int i = 0; i < shots.Length; i++)
+            {
+                Arduino.Cummunicate("Pomp" + i);
+                await Task.Delay(12000 * shots[i]);
+                Arduino.Cummunicate("Pomp" + i);
+            }
+
             Arduino.Cummunicate("Pomp1");
             await Task.Delay(12000 * shots[0]);
             Arduino.Cummunicate("Pomp1");

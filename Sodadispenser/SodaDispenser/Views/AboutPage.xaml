@@ -16,10 +16,7 @@
     </ContentPage.Resources>
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+        
         <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
                 <Label Text="Welkom bij de MixXxer!" HorizontalTextAlignment="Center" TextColor="White" FontSize="34"/>
@@ -29,7 +26,23 @@
                Margin="0, -50, 0, 0"
                ></Image>
         </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End" Spacing="100" Padding="70"  >
+            <Ellipse Stroke="black"
+                 StrokeThickness="5"
+                 WidthRequest="85"
+                 HeightRequest="85"
+                 HorizontalOptions="Start"
+                 Fill="red"/>
+
+            <Ellipse Stroke="black"
+                 StrokeThickness="5"
+                 WidthRequest="85"
+                 HeightRequest="85"
+                 HorizontalOptions="Start"
+                 Fill="green"/>
+        </StackLayout>
+
     </Grid>
     
-
 </ContentPage>

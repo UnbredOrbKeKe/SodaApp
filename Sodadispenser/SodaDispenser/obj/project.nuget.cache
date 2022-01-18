@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "umNBfUcFhv+KnAwtIJrwZnjd+EUz/G86p7zppN1X71JBZYnDXg18XYR4xNIhN//VW2YzIfW8VrqrMV+vU0+WoQ==",
+  "dgSpecHash": "t45Spb5bt5EexvmNvzdr/J+P4aCMuIqqwMlxTX7DJKVRX/V4e1rcEExlM+hiUTHwnSktZsyiBMbYBg86dOQJ0w==",
   "success": true,
-  "projectFilePath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
+  "projectFilePath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\melle\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\melle\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\melle\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\Dennis\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
   ],
   "logs": []
 }

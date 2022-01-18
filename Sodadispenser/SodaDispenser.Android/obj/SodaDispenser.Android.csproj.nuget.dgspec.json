@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj": {}
+    "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj": {}
   },
   "projects": {
-    "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj": {
+    "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
         "projectName": "SodaDispenser.Android",
-        "projectPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
-        "packagesPath": "C:\\Users\\melle\\.nuget\\packages\\",
-        "outputPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\obj\\",
+        "projectPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\SodaDispenser.Android.csproj",
+        "packagesPath": "C:\\Users\\Dennis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
+          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\melle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dennis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +34,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
-                "projectPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj"
+              "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
+                "projectPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj"
               }
             }
           }
@@ -44,30 +46,32 @@
           "dependencies": {
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2291, )"
             }
           }
         }
       }
     },
-    "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
+    "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
+        "projectUniqueName": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
         "projectName": "SodaDispenser",
-        "projectPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
-        "packagesPath": "C:\\Users\\melle\\.nuget\\packages\\",
-        "outputPath": "G:\\arcade project\\SodaApp\\SodaDispenser\\SodaDispenser\\obj\\",
+        "projectPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\SodaDispenser.csproj",
+        "packagesPath": "C:\\Users\\Dennis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dennis\\Documents\\GitHub\\SodaApp\\SodaDispenser\\SodaDispenser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\melle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dennis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -94,19 +98,27 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Json.Net": {
+              "target": "Package",
+              "version": "[1.0.33, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2291, )"
             }
           },
           "imports": [
@@ -119,7 +131,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

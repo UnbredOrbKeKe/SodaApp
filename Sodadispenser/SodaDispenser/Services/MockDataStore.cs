@@ -18,6 +18,7 @@ namespace SodaDispenser.Services
 			items = new ObservableCollection<Item>()
 			{
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Berenburg Cola", Description="This is an item description.", MixCode="14-0-0-6-0-0-0-0" },
+				new Item { Id = Guid.NewGuid().ToString(), Text = "Berenburg Cola", Description="This is an item description.", MixCode="14-0-0-6-0-0-0-0" },
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Raketje", Description="This is an item description.", MixCode="1-2-3-4-5-6-7-8" },
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Jagerbom", Description="This is an item description.", MixCode="14-0-0-6-0-0-0-0" },
 				new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description.", MixCode="14-0-0-6-0-0-0-0" },
