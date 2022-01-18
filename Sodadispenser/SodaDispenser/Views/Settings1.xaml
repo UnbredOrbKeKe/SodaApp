@@ -24,7 +24,7 @@
                        HorizontalOptions="Center"></Label>
 
                 <Label x:Name="Pomp1"
-                        Text=" Pomp 1"
+                        Text=" Pomp 1 (frisdrank) ="
                         TextColor="White"
                         Grid.Row="1"
                         Margin="10, 0, 10, 0"
@@ -37,7 +37,7 @@
                        Margin="10, 10, 0, 10"/>
 
                 <Label x:Name="Pomp2"
-                       Text=" Pomp 2"
+                       Text=" Pomp 1 (frisdrank) = "
                        TextColor="White"
                         Grid.Row="2"
                         BackgroundColor="DarkGray"
@@ -50,7 +50,7 @@
 
                 <Label x:Name="Pomp3"
                         Grid.Row="3"
-                       Text=" Pomp 3"
+                       Text=" Pomp 3 = "
                        TextColor="White"
                         BackgroundColor="DarkGray"
                         Margin="10, 0, 10, 0"></Label>
@@ -62,7 +62,7 @@
                 <Label x:Name="Pomp4"
                         Grid.Row="4"
                        TextColor="White"
-                       Text=" Pomp 4"
+                       Text=" Pomp 4 ="
                         BackgroundColor="DarkGray"
                         Margin="10, 0, 10, 0"
                        ></Label>
@@ -73,7 +73,7 @@
 
                 <Label x:Name="Pomp5"
                         Grid.Row="5"
-                       Text=" Pomp 5"
+                       Text=" Pomp 5 ="
                        TextColor="White"
                         BackgroundColor="DarkGray"
                         Margin="10, 0, 10, 0"></Label>
@@ -84,7 +84,7 @@
 
                 <Label x:Name="Pomp6"
                         Grid.Row="6"
-                       Text=" Pomp 6"
+                       Text=" Pomp 6 ="
                        TextColor="White"
                         BackgroundColor="DarkGray"
                         Margin="10, 0, 10, 0"></Label>
@@ -95,7 +95,7 @@
 
                 <Label x:Name="Pomp7"
                         Grid.Row="7"
-                       Text=" Pomp 7"
+                       Text=" Pomp 7 ="
                        TextColor="White"
                         BackgroundColor="DarkGray"
                         Margin="10, 0, 10, 0"></Label>
@@ -105,7 +105,7 @@
                        Margin="10, 10, 0, 10"></Entry>
 
                 <Label x:Name="Pomp8"
-                       Text=" Pomp 8"
+                       Text=" Pomp 8 ="
                         Grid.Row="8"
                        TextColor="White"
                         BackgroundColor="DarkGray"

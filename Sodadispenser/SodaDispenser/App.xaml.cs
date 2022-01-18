@@ -25,7 +25,7 @@ namespace SodaDispenser
 
 		protected  override void OnStart()
 		{
-			//LoadJson();
+			
         }
 
         protected override void OnSleep()
@@ -37,13 +37,6 @@ namespace SodaDispenser
 		{
 		}
 
-		//public void LoadJson()
-  //      {
-		//	using (StreamReader r = new StreamReader(""))
-  //          {
-		//		string json = r.ReadToEnd();
-		//		MockDataStore.items = JsonConvert.DeserializeObject<ObservableCollection<Item>>(json);
-  //          }
-  //      }
+		
 	}
 }

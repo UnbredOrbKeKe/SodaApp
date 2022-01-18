@@ -36,49 +36,49 @@ namespace SodaDispenser.Views
             if (Drank1.Text != string.Empty)
             {
                 Preferences.Set("Drank1", Drank1.Text);
-                Pomp1.Text = " Pomp 1" + " = " + Preferences.Get("Drank1", string.Empty);
+                Pomp1.Text = " Pomp 1 (frisdrank) = " + Preferences.Get("Drank1", string.Empty);
                 Drank1.Text = string.Empty;
             }
             if (Drank2.Text != string.Empty)
             {
                 Preferences.Set("Drank2", Drank2.Text);
-                Pomp2.Text = " Pomp 2" + " = " + Preferences.Get("Drank2", string.Empty);
+                Pomp2.Text = " Pomp 2 (frisdrank) = " + Preferences.Get("Drank2", string.Empty);
                 Drank2.Text = string.Empty;
             }
             if (Drank3.Text != string.Empty)
             {
                 Preferences.Set("Drank3", Drank3.Text);
-                Pomp3.Text = " Pomp 3" + " = " + Preferences.Get("Drank3", string.Empty);
+                Pomp3.Text = " Pomp 3 = " + Preferences.Get("Drank3", string.Empty);
                 Drank3.Text = string.Empty;
             }
             if (Drank4.Text != string.Empty)
             {
                 Preferences.Set("Drank4", Drank4.Text);
-                Pomp4.Text = " Pomp 4" + " = " + Preferences.Get("Drank4", string.Empty);
+                Pomp4.Text = " Pomp 4 = " + Preferences.Get("Drank4", string.Empty);
                 Drank4.Text = string.Empty;
             }
             if (Drank5.Text != string.Empty)
             {
                 Preferences.Set("Drank5", Drank5.Text);
-                Pomp5.Text = " Pomp 5" + " = " + Preferences.Get("Drank5", string.Empty);
+                Pomp5.Text = " Pomp 5 = " + Preferences.Get("Drank5", string.Empty);
                 Drank5.Text = string.Empty;
             }
             if (Drank6.Text != string.Empty)
             {
                 Preferences.Set("Drank6", Drank6.Text);
-                Pomp6.Text = " Pomp 6" + " = " + Preferences.Get("Drank6", string.Empty);
+                Pomp6.Text = " Pomp 6 = " + Preferences.Get("Drank6", string.Empty);
                 Drank6.Text = string.Empty;
             }
             if (Drank7.Text != string.Empty)
             {
                 Preferences.Set("Drank7", Drank7.Text);
-                Pomp7.Text = " Pomp 7" + " = " + Preferences.Get("Drank7", string.Empty);
+                Pomp7.Text = " Pomp 7 = " + Preferences.Get("Drank7", string.Empty);
                 Drank7.Text = string.Empty;
             }
             if (Drank8.Text != string.Empty)
             {
                 Preferences.Set("Drank8", Drank8.Text);
-                Pomp8.Text = " Pomp 8" + " = " + Preferences.Get("Drank8", string.Empty);
+                Pomp8.Text = " Pomp 8 = " + Preferences.Get("Drank8", string.Empty);
                 Drank8.Text = string.Empty;
             }
             
@@ -102,8 +102,8 @@ namespace SodaDispenser.Views
                 Preferences.Remove("Drank8");
 
                 //Zorgt ervoor dat de drank in de label ook wordt verwijdert en dat er weer "pomp 1-8 =" komt te staan.
-                Pomp1.Text = " Pomp 1 = " + Preferences.Get("Drank1", string.Empty);
-                Pomp2.Text = " Pomp 2 = " + Preferences.Get("Drank2", string.Empty);
+                Pomp1.Text = " Pomp 1 (frisdrank) = " + Preferences.Get("Drank1", string.Empty);
+                Pomp2.Text = " Pomp 2 (frisdrank) = " + Preferences.Get("Drank2", string.Empty);
                 Pomp3.Text = " Pomp 3 = " + Preferences.Get("Drank3", string.Empty);
                 Pomp4.Text = " Pomp 4 = " + Preferences.Get("Drank4", string.Empty);
                 Pomp5.Text = " Pomp 5 = " + Preferences.Get("Drank5", string.Empty);
