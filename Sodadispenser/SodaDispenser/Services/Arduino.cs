@@ -11,7 +11,7 @@ namespace SodaDispenser.Services
         public static void Cummunicate(string led)
         {
             //IPAddress ipAddress = IPAddress.Parse("192.168.1.65"); //laptop connection
-            IPAddress ipAddress = IPAddress.Parse("192.168.178.11"); //desktop
+            IPAddress ipAddress = IPAddress.Parse("192.168.178.10"); //desktop
             IPEndPoint endPoint = new IPEndPoint(ipAddress, 42069); //instellen op welke poort en ip wordt gecommunicate
             Socket s = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
             s.Connect(endPoint);
@@ -20,11 +20,6 @@ namespace SodaDispenser.Services
                 //send
                 byte[] msg = Encoding.ASCII.GetBytes(led);
                 s.Send(msg);
-                //// receive
-                // byte[] buffer = new byte[100];
-                // int bytesReceived = s.Receive(buffer);
-                // result = Encoding.ASCII.GetString(buffer, 0, bytesReceived).Split('>')[1];
-                // close
                 s.Shutdown(SocketShutdown.Both);
                 s.Close();
             }
@@ -35,7 +30,7 @@ namespace SodaDispenser.Services
         {
             string result = "No Response";
             //IPAddress ipAddress = IPAddress.Parse("192.168.1.65"); //laptop connection
-            IPAddress ipAddress = IPAddress.Parse("192.168.178.17"); //desktop
+            IPAddress ipAddress = IPAddress.Parse("192.168.178.10"); //desktop
             IPEndPoint endPoint = new IPEndPoint(ipAddress, 42069); //instellen op welke poort en ip wordt gecommunicate
             Socket s = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
             s.Connect(endPoint);

@@ -34,8 +34,8 @@
             </StackLayout>
             
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="100" Padding="70">
-                <Button x:Name="fris1" Text="Check je fris status" WidthRequest="100" HeightRequest="120" CornerRadius="50"/>
-                <Button x:Name="fris2" Text="Check je fris status" WidthRequest="100" HeightRequest="120" CornerRadius="50"/>
+                <Button x:Name="fris1" Text="Check je fris status" WidthRequest="100" HeightRequest="120" CornerRadius="50" BackgroundColor="black" Clicked="fris1check"/>
+                <Button x:Name="fris2" Text="Check je fris status" WidthRequest="100" HeightRequest="120" CornerRadius="50" BackgroundColor="black" Clicked="fris2check"/>
             </StackLayout>
         </StackLayout>
     </Grid>
