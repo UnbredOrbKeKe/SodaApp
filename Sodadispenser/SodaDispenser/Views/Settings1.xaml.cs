@@ -27,58 +27,63 @@ namespace SodaDispenser.Views
             Drank8.Text = Preferences.Get("Drank8", string.Empty);
         }
 
-
+        //Pomp 1-8 = label
+        //Drank 1-8 = entry
         private void Save_Clicked(object sender, EventArgs e)
         {
-            //Als iemand op de save knop drukt worden de waardes opgeslagen in hun eigen ID.
-            //Als je de dranken opslaat dan staat er ook in de label erboven nog welke in welke pomp welke drank zit. Ook zorgt dit ervoor dat de entry leeg wordt.
+            //Zet alleen een preference als de entry niet leeg is.
 
             if (Drank1.Text != string.Empty)
             {
+                //Als iemand op de save knop drukt worden de waardes opgeslagen in hun eigen ID.
                 Preferences.Set("Drank1", Drank1.Text);
-                Pomp1.Text = " Pomp 1" + " = " + Preferences.Get("Drank1", string.Empty);
+
+                //Als je de dranken opslaat dan staat er ook in de label erboven nog welke in welke pomp welke drank zit. 
+                Pomp1.Text = " Pomp 1 = " + Preferences.Get("Drank1", string.Empty);
+
+                //Dit zorgt ervoor dat de entry leeg wordt.
                 Drank1.Text = string.Empty;
             }
             if (Drank2.Text != string.Empty)
             {
                 Preferences.Set("Drank2", Drank2.Text);
-                Pomp2.Text = " Pomp 2" + " = " + Preferences.Get("Drank2", string.Empty);
+                Pomp2.Text = " Pomp 2 = " + Preferences.Get("Drank2", string.Empty);
                 Drank2.Text = string.Empty;
             }
             if (Drank3.Text != string.Empty)
             {
                 Preferences.Set("Drank3", Drank3.Text);
-                Pomp3.Text = " Pomp 3" + " = " + Preferences.Get("Drank3", string.Empty);
+                Pomp3.Text = " Pomp 3 = " + Preferences.Get("Drank3", string.Empty);
                 Drank3.Text = string.Empty;
             }
             if (Drank4.Text != string.Empty)
             {
                 Preferences.Set("Drank4", Drank4.Text);
-                Pomp4.Text = " Pomp 4" + " = " + Preferences.Get("Drank4", string.Empty);
+                Pomp4.Text = " Pomp 4 = " + Preferences.Get("Drank4", string.Empty);
                 Drank4.Text = string.Empty;
             }
             if (Drank5.Text != string.Empty)
             {
                 Preferences.Set("Drank5", Drank5.Text);
-                Pomp5.Text = " Pomp 5" + " = " + Preferences.Get("Drank5", string.Empty);
+                Pomp5.Text = " Pomp 5 = " + Preferences.Get("Drank5", string.Empty);
                 Drank5.Text = string.Empty;
             }
             if (Drank6.Text != string.Empty)
             {
                 Preferences.Set("Drank6", Drank6.Text);
-                Pomp6.Text = " Pomp 6" + " = " + Preferences.Get("Drank6", string.Empty);
+                Pomp6.Text = " Pomp 6 = " + Preferences.Get("Drank6", string.Empty);
                 Drank6.Text = string.Empty;
             }
             if (Drank7.Text != string.Empty)
             {
                 Preferences.Set("Drank7", Drank7.Text);
-                Pomp7.Text = " Pomp 7" + " = " + Preferences.Get("Drank7", string.Empty);
+                Pomp7.Text = " Pomp 7 = " + Preferences.Get("Drank7", string.Empty);
                 Drank7.Text = string.Empty;
             }
             if (Drank8.Text != string.Empty)
             {
                 Preferences.Set("Drank8", Drank8.Text);
-                Pomp8.Text = " Pomp 8" + " = " + Preferences.Get("Drank8", string.Empty);
+                Pomp8.Text = " Pomp 8 = " + Preferences.Get("Drank8", string.Empty);
                 Drank8.Text = string.Empty;
             }
             
