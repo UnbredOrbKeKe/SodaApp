@@ -23,7 +23,7 @@ namespace SodaDispenser.Views
             {
                 fris1.BackgroundColor = Color.Green;
             }
-            else
+            if (frisstatus == "red")
             {
                 fris1.BackgroundColor = Color.Red;
             }
@@ -36,7 +36,7 @@ namespace SodaDispenser.Views
             {
                 fris2.BackgroundColor = Color.Green;
             }
-            else
+            if (frisstatus == "red")
             {
                 fris2.BackgroundColor = Color.Red;
             }
