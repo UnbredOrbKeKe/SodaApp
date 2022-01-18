@@ -30,13 +30,17 @@ namespace SodaDispenser.Views
 
         private void Save_Clicked(object sender, EventArgs e)
         {
-            //Als iemand op de save knop drukt worden de waardes opgeslagen in hun eigen ID.
-            //Als je de dranken opslaat dan staat er ook in de label erboven nog welke in welke pomp welke drank zit. Ook zorgt dit ervoor dat de entry leeg wordt.
-
+           
+            //gaat wat doen als de entry niet leeg is.
             if (Drank1.Text != string.Empty)
             {
+                //Als iemand op de save knop drukt worden de waardes opgeslagen in hun eigen ID.
                 Preferences.Set("Drank1", Drank1.Text);
+
+                //Als je de dranken opslaat dan staat er ook in de label erboven nog welke in welke pomp welke drank zit. 
                 Pomp1.Text = " Pomp 1 (frisdrank) = " + Preferences.Get("Drank1", string.Empty);
+
+                //maakt de entry leeg als er op save wordt gedrukt
                 Drank1.Text = string.Empty;
             }
             if (Drank2.Text != string.Empty)
